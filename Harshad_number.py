@@ -1,4 +1,4 @@
-# To check harshad number or not
+# To check harshad (Niven) number or not
 def harshad(num):
     sum=0
     temp=num

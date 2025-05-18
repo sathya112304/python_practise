@@ -1,4 +1,4 @@
-# check whether number is armstrong or not
+# check whether number is armstrong (Narcissistic) or not
 def armstrong(num):
     temp=num
     sum=0
