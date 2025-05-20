@@ -11,9 +11,8 @@ def matrix_input():
 A=matrix_input()
 B=matrix_input()
 result=matrix_input()
-if len(A)==len(B):
+if len(A)==len(B) and len(A[0])==len(B[0]):
     for i in range(len(A)):
-        for j in range(len(B)):
-            for k in range(len(A)):
-                result[i][j]=A[i][k]+B[k][j]
+        for j in range(len(A[0])):
+                result[i][j]=A[i][j]+B[i][j]
     print(result)
