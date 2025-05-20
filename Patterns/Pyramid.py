@@ -1,4 +1,4 @@
-# Upright pyramid
+# Odd Upright pyramid
 def pyramid(n):
     for i in range(1,n+1):
         for j in range(n-i):
@@ -9,7 +9,7 @@ def pyramid(n):
 n=int(input())
 pyramid(n)
 
-# Inverted pyramid
+# Odd Inverted pyramid
 def pyramid(n):
     for i in range(n,0,-1):
         for j in range(n-i):
