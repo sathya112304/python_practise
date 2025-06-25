@@ -11,3 +11,4 @@ def encrypt(s):
 s=input()
 print(encrypt(s))
 
+
