@@ -11,3 +11,17 @@ def second_largest(arr):
 
 arr=list(map(int,input().split()))
 print(second_largest(arr))
+
+#Optimal
+def second_largest(arr):
+    first=second=float('-inf')
+    for i in range(len(arr)):
+        if arr[i]>first:
+            second=first
+            first=arr[i]
+        elif arr[i]<first and arr[i]>second:
+            second=arr[i]
+    return second
+
+arr=list(map(int,input().split()))
+print(second_largest(arr))
